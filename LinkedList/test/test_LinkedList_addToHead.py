@@ -11,7 +11,7 @@ class TestAddToHead(unittest.TestCase):
     self.assertEqual(linkedlist.head.data, 1, "First node should have value 1")
     self.assertEqual(linkedlist.head.next, None, "next node of head should point to null")
 
-  def test_addToHead_should_add_a_new_nodes_to_the_linkedlist(self):
+  def test_addToHead_should_add_new_nodes_to_the_linkedlist(self):
     linkedlist = LinkedList()
     linkedlist.addToHead(4)
     linkedlist.addToHead(3)
