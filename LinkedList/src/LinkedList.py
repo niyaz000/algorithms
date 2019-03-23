@@ -5,4 +5,4 @@ class LinkedList(object):
     self.head = head
 
   def addToHead(self, data):
-    self._head = Node(data, self.head)
+    self.head = Node(data, self.head)
