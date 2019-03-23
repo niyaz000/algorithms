@@ -18,6 +18,3 @@ class Node(object):
   @next.setter
   def next(self, value):
     self._next = value
-
-node = Node(1, Node(2))
-print node.next.data
